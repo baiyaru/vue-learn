@@ -5,6 +5,7 @@ import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
 import TrialCarDetail from '../pages/TrailCarDetail'
+import Setting from '../pages/Setting'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/setting',
+      name: 'Setting',
+      component: Setting
     }
   ],
   mode: 'history'

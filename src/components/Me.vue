@@ -24,8 +24,8 @@
       </mt-cell>
     </div>
     <div class="item">
-      <mt-cell title="设置" is-link>
-        <img slot="icon" src="../assets/img/me/ico-settings.svg">
+      <mt-cell title="设置" is-link link to="/Setting">
+        <img slot="icon" src="../assets/me/ico-settings.svg">
       </mt-cell>
     </div>
   </div>
@@ -44,5 +44,28 @@
 </script>
 
 <style scoped>
+  #me {
+    margin-top: 12px;
+  }
 
+  .title {
+    height: 44px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+  }
+
+  .user {
+    background-color: #fff;
+  }
+
+  .item {
+   margin: 12px 0;
+  }
+
+  .avator {
+    padding: 12px 2px;
+    width: 56px;
+    height: 56px;
+  }
 </style>
